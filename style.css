@@ -1,0 +1,80 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    height: 2.5cm;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.header-title {
+    font-size: 1.5em;
+}
+
+.video-placeholder {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.description {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 1em;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.contact-column {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+}
+
+.contact-column h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.contact-column p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.contact-column a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact-column a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: lightgreen;
+    color: black;
+    padding: 10px 20px;
+    text-align: right;
+    font-size: 9pt;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
