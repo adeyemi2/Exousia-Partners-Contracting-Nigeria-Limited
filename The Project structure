@@ -1,0 +1,9 @@
+exousia-partners-contracting/
+├── public/
+│   ├── index.html
+│   ├── contact.html
+│   ├── styles.css
+│   └── script.js
+├── server.js
+├── package.json
+└── package-lock.json
